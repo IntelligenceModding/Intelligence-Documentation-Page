@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <title>Title</title>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        .image-container {
+            height: 225px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-container img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        .card-text {
+            min-height: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<header data-bs-theme="dark">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img alt="e" src="assets/pictures/BH_INH_Logo_2.png" width="96" height="96"
+                     style="margin-right: 10px; border-radius: 10px">
+                <strong>Intelligence Documentation</strong>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Intelligence Documentations</h1>
+                <p class="lead text-body-secondary">You can find for most of the intelligence projects the proper
+                    documentation here. If you can't find the documentation for the project you're using, then there is
+                    none. Feel free to contact us via discord.</p>
+                <p>
+                    <a href="https://discord.intelligence-modding.de" class="btn btn-primary my-2">Discord</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="image-container">
+                            <img src="https://www.bisecthosting.com/images/CF/Advanced_Peripherals/BH_AP_Header.png"
+                                 class="card-img-top" alt="AP">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced Peripherals</h5>
+                            <p class="card-text">Text</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="button" class="btn btn-sm btn-outline-primary" href="https://docs.advanced-peripherals.de">View</a>
+                                    <a type="button" class="btn btn-sm btn-outline-primary" href="https://github.com/SirEndii/Advanced-Peripherals-Documentation">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="image-container">
+                            <img src="https://raw.githubusercontent.com/UnhappyCodings/thoriumreactors/ed4fdf296db0d163e86fcc0895fa14b35945ba6f/thumbnail.png"
+                                 class="card-img-top" alt="AP">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Thorium Reactors</h5>
+                            <p class="card-text">Text</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="button" class="btn btn-sm btn-outline-primary" href="https://docs.thorium-reactors.de">View</a>
+                                    <a type="button" class="btn btn-sm btn-outline-primary" href="https://github.com/UnhappyCodings/thoriumreactors">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="image-container">
+                            <img src="assets/pictures/Axolotl.png"
+                                 class="card-img-top" alt="AP">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Empty</h5>
+                            <p class="card-text">Like my soul</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a type="button" class="btn btn-sm btn-outline-primary" href="https://dc.intelligence-modding.de">View</a>
+                                    <a type="button" class="btn btn-sm btn-outline-primary" href="https://dc.intelligence-modding.de">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>
